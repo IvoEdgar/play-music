@@ -13,6 +13,7 @@ input.onButtonPressed(Button.B, function () {
     music.startMelody(music.builtInMelody(Melodies.Wedding), MelodyOptions.Once)
     basic.clearScreen()
 })
+music.setVolume(255)
 for (let index = 0; index < 2; index++) {
     basic.showIcon(IconNames.Heart)
     basic.showIcon(IconNames.SmallHeart)
